@@ -41,9 +41,6 @@ h1 {
     font-size: 50px;
   }
 
-  /* Create three unequal columns that floats next to each other */
-
-  /* Left and right column */
   .leftcolumn {
   width: 30%;
   float: left;
@@ -91,5 +88,32 @@ h1 {
       padding: 0;
     }
   }
+
+  .button{
+   
+    
+    background-color: transparent;
+    border: none;
+    
+  }
   
+  .i1, .i2, .i3, .i4 {
+    border: none;
+    border-radius:50%;
+    width: 50px;
+    
+  }
+  .solosql, .soloc{
+    height:80px;
+    width:80px;
+    border:black;
+    padding: 3px;
+   
+  }
+
+  .s1, .s2, .s3, .s4, .s5{
+    height:60px;
+    width:60px;
+
+  }
 
