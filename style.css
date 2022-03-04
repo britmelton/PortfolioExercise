@@ -2,44 +2,57 @@
     box-sizing: border-box;
   }
 
-h1 {
-    text-align: center;
-    padding: 10px;
-    color: rgba(0, 0, 0, 0.397);
-    font-size: 3em;
-    font-family: sans-serif;
-}
-.center {
-    display: block;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height:400px;
-    width:400px;
-    border: 3px solid purple;
-    padding: 5px;
-  }
-
-  body {
-    background-image: url("images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Arial;
-    padding: 10px;
-    background-color: gray;
+  #background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    filter:blur(.2em);
   }
 
   .header {
-    text-align: center;
-    background: rgb(117, 117, 146);
-    border: 2px solid rgb(43, 212, 235);
-    
+    background-color: none;
+    color: white;
+    font-weight: normal;
+    width: 50%;
+    align-tracks:center;
+    text-shadow: .12em .12em hsl(0, 0%, 0%);
   }
 
-  .header h1 {
-    font-size: 50px;
+  h2 {
+    text-shadow: .08em .08em hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
   }
+  h3{
+    text-shadow: .08em .08em hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+  }
+  a:link{
+    color: hsl(0, 0%, 100%);
+  }
+  a:visited{
+    color: hsl(0, 0%, 100%);
+    text-shadow: .08em .08em hsl(0, 0%, 0%);
+  }
+  .truecoders {
+    height:60px;
+    width:100px;
+  }
+.education{
+  margin-top:.8em;
+  font-weight: bold;
+  font-size: 1em;
+  text-shadow: .03em .03em hsl(0, 0%, 0%);
+  color:hsl(0, 0%, 100%);
+}
+.about-me-text {
+  margin-top:.8em;
+  font-weight: bold;
+  text-shadow: .03em .03em hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+}
 
   .leftcolumn {
   width: 30%;
@@ -68,7 +81,7 @@ h1 {
 
   /* Add a card effect for articles */
   .card {
-    background-color: rgb(117, 117, 146);
+    background-color: rgba(31, 29, 29, 0.699);
     padding: 20px;
     margin-top: 20px;
   }
@@ -82,7 +95,7 @@ h1 {
   }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+    @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn, .middlecolumn {   
       width: 100%;
       padding: 0;
@@ -90,11 +103,8 @@ h1 {
   }
 
   .button{
-   
-    
     background-color: transparent;
     border: none;
-    
   }
   
   .i1, .i2, .i3, .i4 {
@@ -115,5 +125,29 @@ h1 {
     height:60px;
     width:60px;
 
+  }
+
+  p.tab1{
+    display: inline-block;
+    margin:2px;
+    margin-left: 40px;
+    font-size: 5em;
+   
+
+  }
+  p.tab2{
+    display: inline-block;
+    margin:3px;
+    margin-left: 70px;
+    font-size:5em;
+    
+    
+  }
+  p.tab3{
+    display: inline-block;
+    margin:2px;
+    margin-left: 100px;
+    font-size: 5em;
+    
   }
 
