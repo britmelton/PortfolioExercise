@@ -12,64 +12,96 @@
     filter:blur(.2em);
   }
 
+  .employment{
+    margin-top:.8em;
+    font-weight: bold;
+    font-size: 1em;
+    color:hsl(0, 0%, 100%);
+    font-family: Verdana, sans-serif;
+    background-color: rgba(31, 29, 29, 0.699);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  /* .resumepic{
+    height:12em;
+    width:9em;
+    border:black;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+  } */
+
   .header {
     background-color: none;
     color: white;
     font-weight: normal;
     width: 50%;
     align-tracks:center;
-    text-shadow: .12em .12em hsl(0, 0%, 0%);
+    font-family: Verdana, sans-serif;
+  }
+  ul {
+    color: hsl(0, 0%, 100%);
+    font-family: Verdana, sans-serif;
   }
 
   h2 {
-    text-shadow: .08em .08em hsl(0, 0%, 0%);
     color: hsl(0, 0%, 100%);
+    font-family: Verdana, sans-serif;
   }
   h3{
-    text-shadow: .08em .08em hsl(0, 0%, 0%);
     color: hsl(0, 0%, 100%);
+    font-family: Verdana, sans-serif;
   }
   a:link{
     color: hsl(0, 0%, 100%);
+    font-family: Verdana, sans-serif;
   }
   a:visited{
     color: hsl(0, 0%, 100%);
-    text-shadow: .08em .08em hsl(0, 0%, 0%);
+    font-family: Verdana, sans-serif;
   }
   .truecoders {
     height:60px;
     width:100px;
+    font-family: Verdana, sans-serif;
   }
 .education{
   margin-top:.8em;
   font-weight: bold;
   font-size: 1em;
-  text-shadow: .03em .03em hsl(0, 0%, 0%);
   color:hsl(0, 0%, 100%);
+  font-family: Verdana, sans-serif;
 }
 .about-me-text {
   margin-top:.8em;
   font-weight: bold;
-  text-shadow: .03em .03em hsl(0, 0%, 0%);
+  
   color: hsl(0, 0%, 100%);
+  font-family: Verdana, sans-serif;
 }
 
   .leftcolumn {
-  width: 30%;
+  width: 25%;
   float: left;
   padding: 10px;
+
   }
   .rightcolumn{
-  width: 20%;
-  float: left;
+  width: 25%;
+  float: right;
   padding: 10px;
+  
   }
 
   /* Middle column */
   .middlecolumn {
-  width: 45%;
+  width: 50%;
   float: left;
   padding: 10px;
+  
   }
 
 /* Clear floats after the columns */
@@ -84,14 +116,6 @@
     background-color: rgba(31, 29, 29, 0.699);
     padding: 20px;
     margin-top: 20px;
-  }
-
-
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
   }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -113,7 +137,7 @@
     width: 50px;
     
   }
-  .solosql, .soloc{
+  .solosql, .soloc, .hacker{
     height:80px;
     width:80px;
     border:black;
@@ -122,8 +146,8 @@
   }
 
   .s1, .s2, .s3, .s4, .s5{
-    height:60px;
-    width:60px;
+    height:1em;
+    width:1em;
 
   }
 
